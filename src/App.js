@@ -1,7 +1,25 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
-function App() {
-  return <h1>You Can Do This!</h1>;
+//import {yes, no} from './objects'
+import Header from "./Components/Header.js"; 
+import Image from "./Components/Image.js";
+
+class App extends Component {
+  render() {
+    return(
+      <>
+      <Header text = "Hello" />
+      <Image />
+      </>
+
+
+    )
+  }
+
+
+
+
+  
 }
 
 export default App;
